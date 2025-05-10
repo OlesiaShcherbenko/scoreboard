@@ -34,13 +34,13 @@ body {
 }
 
 .score {
+  width: 9.6875rem;
   font-family: "Cursed Timer", monospace;
   font-size: 5.625rem;
   color: #f94f6d;
   background-color: #080001;
   margin: 0 0 1.63rem 0;
   line-height: 7.91663rem;
-  padding: 0 3.1rem;
   border-radius: 8px;
 }
 
