@@ -1,37 +1,39 @@
+console.log("JS loaded");
+
 // Home
-let homeScoreEL = document.getElementById("home-score");
+let homeScoreEl = document.getElementById("home-score");
 let homeScore = 0;
 
-function add1Home() {
+document.getElementById("add1HomeBtn").addEventListener("click", function () {
   homeScore += 1;
-  homeScoreEL.textContent = homeScore;
-}
+  homeScoreEl.textContent = homeScore;
+});
 
-function add2Home() {
+document.getElementById("add2HomeBtn").addEventListener("click", function () {
   homeScore += 2;
-  homeScoreEL.textContent = homeScore;
-}
+  homeScoreEl.textContent = homeScore;
+});
 
-function add3Home() {
+document.getElementById("add3HomeBtn").addEventListener("click", function () {
   homeScore += 3;
-  homeScoreEL.textContent = homeScore;
-}
+  homeScoreEl.textContent = homeScore;
+});
 
 // Guest
 let guestScoreEl = document.getElementById("guest-score");
 let guestScore = 0;
 
-function add1Guest() {
+document.getElementById("add1GuestBtn").addEventListener("click", function () {
   guestScore += 1;
   guestScoreEl.textContent = guestScore;
-}
+});
 
-function add2Guest() {
+document.getElementById("add2GuestBtn").addEventListener("click", function () {
   guestScore += 2;
   guestScoreEl.textContent = guestScore;
-}
+});
 
-function add3Guest() {
+document.getElementById("add3GuestBtn").addEventListener("click", function () {
   guestScore += 3;
   guestScoreEl.textContent = guestScore;
-}
+});
