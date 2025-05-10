@@ -1,2 +1,2 @@
-# basketball-scoreboard
+# scoreboard
 
